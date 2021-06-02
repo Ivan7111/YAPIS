@@ -1,0 +1,13 @@
+begin
+let q be 1
+let a be {1, 2}
+add 1 to q
+add {2, 3} to a
+if q.size > a.size {
+    print a
+    add 4 to q
+} else {
+    add 4 to q
+    print q
+}
+end
